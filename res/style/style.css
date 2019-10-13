@@ -1,0 +1,633 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700);
+
+
+/*==========================================================================*/
+
+
+*{
+margin: 0;
+padding: 0;
+outline: none;
+letter-spacing: 0.015rem;
+word-spacing: 0.06rem;
+font-family: 'Jura', sans-serif;
+}
+
+
+html {
+width: 100%;
+height: 100vh;
+background: #37414A;
+}
+
+
+body {
+width: 100%;
+min-width: 320px;
+top: 0px;
+height: auto;
+background: #515A62;
+text-shadow: none;
+font-style: normal;
+font-size: 1rem;
+color: #22282D;
+}
+
+*::-webkit-scrollbar-track {
+background-color: #515A62;
+}
+*::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+background-color: #515A62;
+}
+*::-webkit-scrollbar-thumb {
+background-color: #37414A;
+border: 2px solid #515A62;
+}
+
+*::-webkit-scrollbar-corner {
+background: #515A62;
+}
+
+*::-webkit-resizer {
+background: #515A62;
+}
+
+
+h1 {
+font-weight: 400;
+margin: 0 auto;
+font-style: normal;
+font-size: 2.3rem;
+line-height: 1.7;
+color: #2A3239;
+}
+
+h2 {
+font-weight: 400;
+margin: 0px 0px 13px 0px;
+font-style: normal;
+font-size: 2.1rem;
+line-height: 1.15;
+color: #2A3239;
+}
+
+h3 {
+margin: 0 auto;
+font-weight: 400;
+font-style: normal;
+font-size: 1.7rem;
+line-height: 1.7;
+color: #2A3239;
+}
+
+h4 {
+margin: 0 auto;
+font-weight: 500;
+font-weight: normal;
+font-style: normal;
+font-size: 1.6rem;
+line-height: 1.5;
+color: #22282D;
+}
+
+h5 {
+margin: 0 auto;
+font-weight: 500;
+font-weight: normal;
+font-style: normal;
+font-size: 1.4rem;
+line-height: 1.6;
+color: #22282D;
+}
+
+
+/*==========================================================================*/
+
+
+blockquote {
+font-style: italic;
+padding: 10px 0 10px 20px;
+font-size: 1.09rem;
+position: relative;
+border-color: #CCCCCC;
+border-width: 3px;
+}
+
+ul,ol,pre,blockquote {
+margin-bottom: 2.3125rem;
+}
+
+pre {
+background: #f4f4f4;
+padding: 10px 24px;
+white-space: pre-wrap;
+}
+
+a, a:hover {
+color: #434343;
+text-decoration: none;
+}
+
+strong, b {
+font-weight: 600;
+}
+
+
+/*==========================================================================*/
+
+
+.topnavmenu, .navbar-brand, .topnavmenu a, .navbar-brand a, .bg-color a {
+opacity: 1;
+font-size: 1.2rem;
+font-weight: 400;
+color: #ddd;
+text-transform: uppercase;
+}
+
+.navbar-short a, .opened a {
+color: #ddd;
+}
+
+.hamburger span {
+background: #ddd !important;
+}
+
+.opened span , .navbar-short span{
+background: #ddd !important;
+}
+
+
+.topnavmenu a:hover, .navbar-brand a:hover, .bg-color a:hover {
+opacity: 0.6;
+}
+
+
+
+/*==========================================================================*/
+
+
+
+.topBanner{
+width: 100%;
+height: 70px;
+display:block;
+}
+
+
+/*==========================================================================*/
+
+
+
+.topnameblank{
+background: #37414A;
+margin: 0 auto;
+padding: 28px 10px;
+width: 96%;
+max-width: 1060px;
+
+}
+
+
+.topnameblank h1{
+text-align: center;
+color: #ddd;
+line-height: 1.4;
+text-transform: uppercase;
+}
+
+
+/*==========================================================================*/
+
+
+
+.contentall{
+margin: 0 auto;
+width: 96%;
+max-width: 1060px;
+height: 100%;
+background: #f5f5f5;
+font-size: 1.2rem;
+line-height: 1.6;
+}
+
+.contentall-in{
+padding: 50px 30px;
+width: 100%;
+}
+
+
+.contentall a{
+opacity: 1;
+color: #666;
+text-decoration: none;
+border-bottom: 0.04rem dashed #ccc;
+}
+
+.contentall a:hover{
+opacity: 0.7;
+}
+
+.contentall h2 a{
+font-weight: 300;
+color: #585858;
+border-bottom: 0px;
+}
+
+.contentall iframe,  .contentall img{
+max-width: 100%;
+padding: 2px;
+margin: 0;
+background: #727A80;
+border: 0px;
+}
+
+
+/*==========================================================================*/
+
+
+.razdelline{
+width: 100%;
+border-top: 4px solid #37414A;
+margin: 50px 0px;
+}
+
+.razdelline2{
+width: 60%;
+border-top: 2px solid #999;
+margin: 30px 0px 20px 0px;
+}
+
+
+/*==========================================================================*/
+
+
+
+table.downloadc{
+border: 0.05rem dashed #999;
+width: 100%;
+margin: 40px 0px;
+background: #e1e1e1;
+padding: 0px;
+}
+
+table.downloadc a{
+border-bottom: 0.04rem dashed #b1b1b1;
+color: #565656;
+display:block;
+margin: 13px 0px;
+}
+
+
+table.downloadc a:hover{
+border-bottom: 0.04rem dashed #c1c1c1;
+}
+
+
+.downloadc td{
+padding: 5px 15px;
+}
+
+
+.downloadicon{
+background:url(/res/images/download.png) no-repeat left;
+background-size: contain;
+width: 60px;
+height: 60px;
+display:table;
+float:right;
+margin-right: 7px;
+}
+
+
+
+/*==========================================================================*/
+
+
+.inlineblock{
+display: inline-block;
+margin: 0 45px 22px 0;
+}
+
+
+.noinlineblock{
+display: block;
+margin: 0 0 12px 0;
+}
+
+
+
+/*==========================================================================*/
+
+
+
+.inlineblockpicout{
+border: 0.05rem dashed #999;
+width: 100%;
+margin: 40px 0px;
+background: #e1e1e1;
+padding: 14px 0px;
+text-align: center;
+}
+
+
+
+
+.inlineblockpic{
+display: inline-block;
+width: 250px;
+height: auto;
+margin: 14px;
+padding: 5px;
+text-align:center;
+}
+
+
+.inlineblockpic img{
+display: block;
+margin-bottom: 4px;
+padding: 0px;
+}
+
+
+a.inlineblockpic{
+border: 0.05rem dashed #999;
+}
+
+
+
+/*==========================================================================*/
+
+
+.prettyprint{
+white-space: pre-wrap;
+display: block;
+max-width: 100%;
+padding: 10px;
+margin: 0;
+background: #f0f0f0;
+border: 7px solid #727A80;
+font-size: 0.9rem;
+line-height: 1.4;
+border-radius: 0;
+}
+
+
+/*==========================================================================*/
+
+
+
+.follink{
+display: block;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 99%;
+}
+
+
+
+
+/*==========================================================================*/
+
+
+
+.bottomfooter{
+margin: 0;
+width: 100%;
+background: #37414A;
+padding: 28px 0px;
+text-align: center;
+font-size: 1.07rem;
+font-weight: 300;
+color: #ddd;
+line-height: 1.9;
+}
+
+
+.bottomfooter a{
+opacity: 1;
+color: #ddd;
+text-decoration: none;
+letter-spacing: 0.02rem;
+word-spacing: 0.08rem;
+}
+
+.bottomfooter a:hover{
+opacity: 0.7;
+}
+
+
+
+/*==========================================================================*/
+
+
+
+.pa-gallery-player-widget{
+width:100%; 
+height:76.8vh; 
+display:none;
+}
+
+.pa-gallery-player-widget iframe{
+padding: 2px !important;
+}
+
+
+
+
+/*==========================================================================*/
+
+
+
+@media (max-width: 768px) {
+
+.topnameblank{
+width: 100%;
+border: 0px;
+}
+
+.topnameblank h1{
+font-size: 1.7rem;
+}
+
+.contentall{
+width: 100%;
+border: 0px;
+font-size: 1.1rem;
+line-height: 1.5;
+}
+
+.contentall-in{
+padding: 50px 20px;
+}
+
+
+.razdelline{
+margin: 40px 0px;
+}
+
+.bottomfooter{
+font-size: 0.85rem;
+}
+
+.prettyprint{
+max-width: 100%;
+padding: 10px 0px;
+margin: 0;
+border:0px;
+border-top: 2px solid #727A80;
+border-bottom: 2px solid #727A80;
+font-size: 0.8rem;
+line-height: 1.4;
+}
+
+.contentall iframe,  .contentall img{
+max-width: 100%;
+padding: 3px 0px;
+margin: 0;
+background: #727A80;
+border: 0px;
+}
+
+}
+
+
+
+/*==========================================================================*/
+
+
+
+@media (max-width: 375px) {
+
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+font-size: 1.8rem;
+}
+
+h3 {
+font-size: 1.4rem;
+}
+
+h4 {
+font-size: 1.3rem;
+}
+
+h5 {
+font-size: 1.2rem;
+}
+
+.contentall{
+font-size: 1.05rem;
+line-height: 1.5;
+}
+
+.contentall-in{
+padding: 45px 10px;
+}
+
+
+.bottomfooter{
+font-size: 0.75rem;
+}
+
+
+.topnameblank{
+padding: 15px 10px;
+}
+
+
+.topnameblank h1{
+font-size: 1.5rem;
+}
+
+.prettyprint{
+padding: 10px 0px;
+margin: 0;
+border:0px;
+border-top: 2px solid #727A80;
+border-bottom: 2px solid #727A80;
+font-size: 0.75rem;
+line-height: 1.4;
+}
+
+table.downloadc{
+border: 0px;
+border-top: 2px solid #727A80;
+border-bottom: 2px solid #727A80;
+width: 100%;
+margin: 40px 0px;
+background: #f5f5f5;
+padding: 0px;
+}
+
+table.downloadc a{
+margin: 13px 0px;
+}
+
+.downloadc td{
+padding: 5px 0px;
+}
+
+}
+
+
+
+/*==========================================================================*/
+
+
+
+@media (max-height: 420px) {
+
+.topnavmenu nav.navbar-short{
+background-color: transparent;
+}
+
+.topnavmenu nav.navbar-short.opened{
+background-color: #37414A;
+}
+
+.hamburger span {
+background: #999 !important;
+}
+
+.opened span{
+background: #eee !important;
+}
+
+.navbar-brand a{
+color: #999;
+}
+
+.opened .navbar-brand a{
+color: #eee;
+}
+
+.pa-gallery-player-widget{
+width:100%; 
+height:95vh; 
+display:none;
+}
+
+
+
+}
+
+
+
+/*==========================================================================*/
+
+
+
+
+
+
+
+
+
+
+
