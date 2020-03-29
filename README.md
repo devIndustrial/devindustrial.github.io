@@ -1,7 +1,7 @@
 # #EPROM / e-prom.github.io
 
 Россия. Санкт-Петербург.<br>
-<a href="https://nvjob.github.io/" target="_blank">Независимый Разработчик Николай Веселов</a>
+<a href="https://nvjob.github.io/" target="_blank">#NVJOB. Независимый Разработчик Николай Веселов</a>
 <br><br>
 Разработка игр, приложений, ассетов, скриптов и шейдеров на Unity.<br>
 Разработка приложений на C#, Autoit, C++.<br>
