@@ -1,4 +1,4 @@
-# #EPROM e-prom.github.io
+# #EPROM / e-prom.github.io
 
 Россия. Санкт-Петербург.<br>
 <a href="https://nvjob.github.io/" target="_blank">Независимый Разработчик Николай Веселов</a>
