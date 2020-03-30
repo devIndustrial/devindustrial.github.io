@@ -1,2 +1,2 @@
 User-Agent: *
-Host: e-prom.github.io
+Host: devindustrial.github.io
