@@ -1,5 +1,7 @@
 # #EPROM / e-prom.github.io
 
+![GitHub Logo](https://raw.githubusercontent.com/e-prom/e-prom.github.io/master/res/images/nvjob.jpg)
+
 Россия. Санкт-Петербург.<br>
 <a href="https://nvjob.github.io/" target="_blank">#NVJOB. Независимый Разработчик Николай Веселов</a>
 <br><br>
