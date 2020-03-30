@@ -1,4 +1,4 @@
-# E-PROM.GITHUB.IO
+# DEVINDUSTRIAL.GITHUB.IO
 <a href="https://nvjob.github.io/" target="_blank">#NVJOB. Независимый Разработчик Николай Веселов. Санкт-Петербург.</a>
 <br><br>
 ![GitHub Logo](https://raw.githubusercontent.com/e-prom/e-prom.github.io/master/res/images/nvjob.jpg)
